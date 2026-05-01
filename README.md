@@ -1,8 +1,8 @@
 # Constitutional AI — Open-Source Replication
 
-A full implementation of **"Constitutional AI: Harmlessness from AI Feedback"**  
-(Bai et al., Anthropic 2022 · [arXiv:2212.08073](https://arxiv.org/abs/2212.08073))  
-using **Mistral-7B-Instruct** in place of Claude.
+A full implementation of "Constitutional AI: Harmlessness from AI Feedback"
+(Bai et al., Anthropic 2022 · arXiv:2212.08073) — replicating both 
+training stages (SL-CAI and RL-CAI) using open-source models.
 
 ---
 
@@ -428,7 +428,7 @@ for x in p:
 
 ## 7. Expected results
 
-Based on the paper's Figure 3 and our experiments with this codebase:
+Based on the paper's Figure 3 and ablations run during development:
 
 | Stage | Mean RM Score | BLEU-4 |
 |-------|--------------|--------|
